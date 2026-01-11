@@ -63,7 +63,48 @@ grid_search.fit(X, y)
 print(f"Найкраща кількість сусідів: {grid_search.best_params_['model__n_neighbors']}")
 print(f"Найкраща оцінка (R2): {grid_search.best_score_:.2f}")
 
-new_df = pd.DataFrame({"висота_куща": [100], "вік_куща": [3]})
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+num_features = ["Age", "Salary"]
+cat_features = ["Sex", "City"]
+
+custom_features = ["Age", "Experience"]
+
+X = df[num_features + cat_features + ["Experience"]].copy()
+X = df.drop(columns="Target")
+y = df["Target"]
+
+
+numeric_pipeline = Pipeline([
+     ("imputer", SimpleImputer(strategy='median')),
+     ("scaler", StandardScaler())
+])
+
+categorical_pipeline = Pipeline([
+    ("imputer", SimpleImputer(strategy='most_frequent')),
+    ("one_hot", OneHotEncoder(sparse_output=False, handle_unknown='ignore', drop="if_binary"))
+])
+
+
+custom_pipeline = Pipeline([
+    ("imputer", SimpleImputer(strategy='median')),
+    ("feature_extractor", FunctionTransformer(func=create_exp_ratio, validate=True)),
+    ("scaler", StandardScaler())
+])
+
+
+preprocessor = ColumnTransformer([
+    ("num", numeric_pipeline, num_features),
+    ("cat", categorical_pipeline, cat_features),
+    ("custom", custom_pipeline, custom_features)
+])
+
+full_pipeline = Pipeline([
+    
+    ("preprocessor", preprocessor),
+    ("model", KNeighborsRegressor(2))
+])
+full_pipeline
 
 new_pred = grid_search.predict(new_df)
 print(f"Фінальний прогноз від найкращої моделі: {new_pred[0]:.0f} ягід")

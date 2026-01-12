@@ -25,45 +25,47 @@
 
 \\\\\\\\\\\Code\\\\\\\\\\\\\\
 
-`import pandas as pd
-import numpy as np
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import StandardScaler
-from sklearn.neighbors import KNeighborsRegressor
-from sklearn.metrics import mean_absolute_error, mean_squared_error
+```python
+    import pandas as pd
+    import numpy as np
+    from sklearn.model_selection import train_test_split
+    from sklearn.preprocessing import StandardScaler
+    from sklearn.neighbors import KNeighborsRegressor
+    from sklearn.metrics import mean_absolute_error, mean_squared_error
+    
+    data = {
+        "висота_куща": [50, 80, 150, 40, 120, 200, 45, 110],
+        "вік_куща": [1, 2, 5, 1, 4, 8, 1, 3],
+        "кількість_ягід": [20, 45, 120, 15, 100, 250, 18, 90]
+    }
+    
+    df = pd.DataFrame(data)
+    
+    X = df[["висота_куща", "вік_куща"]]
+    y = df["кількість_ягід"]
+    
+    scaler = StandardScaler()
+    X_scaled = scaler.fit_transform(X)
+    
+    model = KNeighborsRegressor(n_neighbors=2)
+    model.fit(X_scaled, y)
+    
+    y_pred = model.predict(X_scaled)
+    
+    mae = mean_absolute_error(y, y_pred)
+    rmse = np.sqrt(mean_squared_error(y, y_pred))
+```
 
-data = {
-    "висота_куща": [50, 80, 150, 40, 120, 200, 45, 110],
-    "вік_куща": [1, 2, 5, 1, 4, 8, 1, 3],
-    "кількість_ягід": [20, 45, 120, 15, 100, 250, 18, 90]
-}
+#### Для навчання на нових даних
 
-df = pd.DataFrame(data)
+    new_df = pd.DataFrame({"висота_куща": [100], "вік_куща": [3]})
+    new_df_scaled = scaler.transform(new_df)
+    y_pred = model.predict(new_df_scaled)
 
-X = df[["висота_куща", "вік_куща"]]
-y = df["кількість_ягід"]
 
-scaler = StandardScaler()
-X_scaled = scaler.fit_transform(X)
-
-model = KNeighborsRegressor(n_neighbors=2)
-model.fit(X_scaled, y)
-
-y_pred = model.predict(X_scaled)
-
-mae = mean_absolute_error(y, y_pred)
-rmse = np.sqrt(mean_squared_error(y, y_pred))`
-
-Для навчання на нових даних
-
-`new_df = pd.DataFrame({"висота_куща": [100], "вік_куща": [3]})
-
-new_df_scaled = scaler.transform(new_df)
-
-y_pred = model.predict(new_df_scaled)`
-
-Вид даних,Чи підходить KNN?,Чому?
-Маленькі таблиці,✅ Так,Швидко працює і легко перевірити.
-Дані з цифрами,✅ Так,Легко порахувати відстань між ними.
-Фотографії чи Тексти,❌ Ні,Для фотографій відстань у пікселях нічого не скаже про зміст.
-Дуже заплутані дані,❌ Ні,"Робот просто ""заблукає"" серед сусідів."
+|Вид даних | Чи підходить KNN? | Чому?|
+|----------|-------------------|------|
+|Маленькі таблиці | ✅ Так | Швидко працює і легко перевірити|
+|Дані з цифрами | ✅ Так | Легко порахувати відстань між ними|
+|Фотографії чи Тексти | ❌ Ні | Для фотографій відстань у пікселях нічого не скаже про зміст|
+|Дуже заплутані дані | ❌ Ні | Робот просто "заблукає" серед сусідів|

@@ -35,11 +35,11 @@ gmm.fit(new_df)
 probs = gmm.predict_proba(new_df)
 print(probs[:5]) # Покаже шанси для перших 5 точок
 
-[[1.18184319e-01 8.81815681e-01 0.00000000e+00]
- [4.03085555e-03 9.95969144e-01 0.00000000e+00]
- [9.99924421e-01 7.55785569e-05 0.00000000e+00]
- [1.00000000e+00 3.70823586e-39 0.00000000e+00]
- [1.00000000e+00 1.03440056e-48 0.00000000e+00]]
+#[[1.18184319e-01 8.81815681e-01 0.00000000e+00]
+ #[4.03085555e-03 9.95969144e-01 0.00000000e+00]
+ #[9.99924421e-01 7.55785569e-05 0.00000000e+00]
+ #[1.00000000e+00 3.70823586e-39 0.00000000e+00]
+ #[1.00000000e+00 1.03440056e-48 0.00000000e+00]]
 
 # Приклад з ірисками
 
@@ -62,8 +62,12 @@ plt.title('Метод ліктя')
 plt.xlabel('Кількість кластерів')
 plt.ylabel('Помилка (Inertia)')
 plt.show()
+```
 
-<img width="771" height="567" alt="image" src="https://github.com/user-attachments/assets/fd5c4dba-c541-41b5-a475-5dad1ad327f2" />
+<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/fd5c4dba-c541-41b5-a475-5dad1ad327f2" />
+
+
+```python
 
 kmeans = KMeans(n_clusters=3, random_state=23)
 y_kmeans = kmeans.fit_predict(X)
@@ -74,9 +78,12 @@ plt.scatter(centers[:, 0], centers[:, 1], c='red', s=200, alpha=0.75, marker='X'
 
 plt.title('Результат кластеризації ірисів')
 plt.show()
+```
 
-<img width="707" height="546" alt="image" src="https://github.com/user-attachments/assets/3721bfb5-fc28-4ea8-ac73-2c2032dac429" />
+<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/3721bfb5-fc28-4ea8-ac73-2c2032dac429" />
 
+
+```python
 score = silhouette_score(X, y_kmeans)
 print(f"Наскільки чітко розділені групи: {score:.2f}") # Наскільки чітко розділені групи: 0.55
 # Якщо результат більше 0.5 — це дуже непогано!

@@ -1,3 +1,7 @@
+
+<img width="1067" height="541" alt="image" src="https://github.com/user-attachments/assets/a5b151e9-85ac-4ab3-85f2-c18e923640c9" />
+
+
 #### Trends - A trend is defined as a pattern of change.
     sns.lineplot - Line charts are best to show trends over a period of time, 
     and multiple lines can be used to show trends in more than one group.

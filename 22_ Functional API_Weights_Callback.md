@@ -47,7 +47,6 @@
     
     model = tf.keras.Model(inputs=inputs, outputs=output)
   ```
-<img width="1116" height="743" alt="image" src="https://github.com/user-attachments/assets/0fd9a7e6-e361-49b5-9710-614db1c3b070" />
 
  ```python
     inputs_tabular = tf.keras.Input((10,), name="Tabular_input")

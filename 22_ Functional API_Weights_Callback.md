@@ -70,6 +70,47 @@
  ```
 <img width="1116" height="445" alt="image" src="https://github.com/user-attachments/assets/4cb80a8b-fddb-4143-92f8-31db0c55b83b" />
 
+ ```python
+
+    import tensorflow as tf
+    from tensorflow.keras import layers, models, Input, callbacks, initializers
+    
+    # 1. Вхідні дані (Functional API)
+    # Наші цифри — це картинки 28x28 пікселів (всього 784 точки)
+    inputs = Input(shape=(784,))
+    
+    # 2. Перший шар із Weight Initialization
+    # Використовуємо 'he_normal', щоб нейрони одразу прокинулися
+    x = layers.Dense(128, 
+                     activation='relu', 
+                     kernel_initializer='he_normal')(inputs)
+    
+    # 3. Додаємо BatchNormalization & Dropout
+    x = layers.BatchNormalization()(x)
+    x = layers.Dropout(0.2)(x) # 20% нейронів відпочивають, щоб інші вчилися краще
+    
+    # 4. Другий шар
+    x = layers.Dense(64, activation='relu')(x)
+    
+    # 5. "Вихід" — 10 варіантів (цифри від 0 до 9)
+    outputs = layers.Dense(10, activation='softmax')(x)
+    
+    # 6. Збираємо модель докупи
+    model = models.Model(inputs=inputs, outputs=outputs)
+    
+    # 7. Налаштовуємо Optimizer & Loss
+    model.compile(
+        optimizer='adam', 
+        loss='sparse_categorical_crossentropy', 
+        metrics=['accuracy']
+    )
+    
+    # 8. Налаштовуємо Callbacks
+    # Якщо модель перестане ставати розумнішою, ми зупинимося самі
+    stop_early = callbacks.EarlyStopping(monitor='val_loss', patience=3)
+ ```
+
+
 #### 3. Callbacks
     Навчання моделі може тривати довго. Ти ж не хочеш сидіти і дивитися в монітор 3 години?
     Callbacks — це функції-шпигуни, які стежать за процесом. Вони можуть:

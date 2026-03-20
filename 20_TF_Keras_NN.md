@@ -97,5 +97,20 @@
   new_model = keras.models.load_model('my_super_robot.h5')
   ```
 
+ ```python
+    model = tf.keras.Sequential([
+        layers.Input(shape=(24,), batch_size=32),
+        layers.Dense(128, use_bias=False),
+        layers.BatchNormalization(),
+        layers.Activation('relu'),
+        layers.Dropout(0.3),
+        layers.Dense(64, use_bias=False),
+        layers.BatchNormalization(),
+        layers.Activation('relu'),
+        layers.Dropout(0.1),
+        layers.Dense(1, activation='sigmoid')
+        ])
+  ```
+
 
 [Нагору ↑](#top)

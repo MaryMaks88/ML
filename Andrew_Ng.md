@@ -171,8 +171,18 @@ Z - score normalization (Standardization)
 <p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/7200aa9f-21c2-411e-b23c-3e170a2ed5a7" />
 </p>
 
+Learning curve
 
+<p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/fe4c67ae-2a4a-4ada-8e65-281c1800cdf3" />
+</p>
 
+Choosing the learning rate
+
+<p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/6b1c192c-0c4f-419e-be93-bbc66c29cf31" />
+</p>
+
+<p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/e0c0832d-cd57-4db4-b088-016d43e4fb2b" />
+</p>
 
 
 

@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 Machine learning algorithms:
 
 - Supervised learning - giving your model examples,
@@ -120,3 +122,4 @@ So GD will keep the last w value he got.
 
 
 
+[Нагору ↑](#top)

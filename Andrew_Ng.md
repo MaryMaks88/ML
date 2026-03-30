@@ -198,4 +198,5 @@ Choosing the learning rate
 
 
 
+
 [Нагору ↑](#top)

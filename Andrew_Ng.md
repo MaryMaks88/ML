@@ -121,6 +121,31 @@ we have no size, no bedrooms etc.
 <p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/124080e6-56e4-40f2-9d9e-3763c2631b7d" />
 </p>
 
+<p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/031e19db-3936-4ef0-a7f4-7d5842f776d4" />
+</p>
+
+Vectorization in code
+
+<p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/1b4bb674-8268-4f47-bdfc-55ce206299f2" />
+</p>
+
+Parallel calculation 
+
+<p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/0c23713f-6eb8-4ea9-a184-7f98efa0ee05" />
+</p>
+
+Vectorization in Gradient Descent
+
+<p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/0c4ad311-ced5-4831-898d-7246cb4f0a84" />
+</p>
+
+Gradient Descent for MUltiple Regression
+
+<p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/bb151f12-13b7-4576-8b5a-b07cc01bebdf" />
+</p>
+
+<p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/ddffdc14-1929-4174-a2d2-9e8eb3f9ac06" />
+</p>
 
 
 

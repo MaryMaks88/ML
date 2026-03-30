@@ -147,6 +147,30 @@ Gradient Descent for MUltiple Regression
 <p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/ddffdc14-1929-4174-a2d2-9e8eb3f9ac06" />
 </p>
 
+Feature Scaling
+
+<p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/c2b99497-7e90-4ddc-80b6-fa62f33e4933" />
+</p>
+
+<p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/ceca0807-820e-4b4e-bf2a-324bbd080f90" />
+</p>
+
+<p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/c21d398a-3f9d-4d5b-b5b3-81525622d0b6" />
+</p>
+
+Mean normalization
+
+<p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/5d77a411-bbe7-477e-923e-4cb85c086c74" />
+</p>
+
+Z - score normalization (Standardization)
+
+<p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/16680ae6-820f-468a-af43-575152e7335b" />
+</p>
+
+<p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/7200aa9f-21c2-411e-b23c-3e170a2ed5a7" />
+</p>
+
 
 
 

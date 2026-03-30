@@ -106,6 +106,23 @@ So GD will keep the last w value he got.
 
 <p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/214b9a76-dbdc-44b6-886e-73302fce6dc0" /></p>
 
+Multiple Features (variables)
+
+<p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/9ba39cd6-39a7-4e8c-a5e8-4a198552bc3f" />
+</p>
+
+Below schema shows us that each weight for each feauter represents how this feature impacts the target. 
+That each size extension will push the price up on 0.1 (100$),
+each bedroom will increase price on 4 (4000$), each new floor will increase price on 10 (10000$), 
+and each year will decrease the price on -2 (-2000$).
+Bias shows us the minimum price we could pay for the object where all weights are 0,
+we have no size, no bedrooms etc.
+
+<p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/124080e6-56e4-40f2-9d9e-3763c2631b7d" />
+</p>
+
+
+
 
 
 

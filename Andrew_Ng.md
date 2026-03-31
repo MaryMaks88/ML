@@ -207,10 +207,29 @@ Why linear regression is not the best option
 <p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/d4d28ded-5e08-470a-aeca-9ef29c89650c" />
 </p>
 
+Logistic Regression
 
+<p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/5f7bfa72-03e9-465b-94bc-ea0d6af4eea0" />
+</p>
 
+<p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/3d95ee21-13c3-4339-9e2e-7d1c275c91b8" />
+</p>
 
+<p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/f3df5183-777c-4fa0-9d56-99e5828987e8" />
+</p>
 
+Decision Boundary
+
+<p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/4437b03e-1e8b-4759-b1e7-fb8cfc57d6c6" />
+</p>
+
+<p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/14f1d720-d9e9-41bc-9c64-9e9a012800a6" />
+</p>
+
+<p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/d1665553-da03-4c4e-aad1-d87085bb3c45" />
+</p>
+
+Cost Function for Logistic Regression
 
 
 

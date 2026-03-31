@@ -184,6 +184,30 @@ Choosing the learning rate
 <p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/e0c0832d-cd57-4db4-b088-016d43e4fb2b" />
 </p>
 
+Feature Engineering
+
+<p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/3474cf57-70d7-46b3-970b-aed9cfadb5f4" />
+</p>
+
+Polynomial Regression
+
+<p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/026245a1-4189-461c-8f45-438becd12d0c" />
+</p>
+
+<p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/a925106a-7f18-486a-b169-8d704e29a270" />
+</p>
+
+Classification
+
+<p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/507daeb3-35ee-4ac2-81ce-c71761a58e41" />
+</p>
+
+Why linear regression is not the best option
+
+<p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/d4d28ded-5e08-470a-aeca-9ef29c89650c" />
+</p>
+
+
 
 
 

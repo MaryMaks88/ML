@@ -273,6 +273,27 @@ The Problem of Overfitting
 <p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/f510f7ef-0a75-42eb-8e13-c42537ee6b5e" />
 </p>
 
+Addressing Overfitting
+
+- against overfitting  we may get more training data
+- proceed with the feature engineering and add new features
+- or vice versa, remove insufficient data - feature selection
+- regularization - deacrease the impact of some features - reduce size of parameters 
+
+Cost Function with Regularization
+
+<p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/4d172f54-28be-429c-b243-8bbcbf2a67b5" />
+</p>
+
+Regularized Linear Regression
+
+<p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/1ac74cff-b905-4be4-8c1a-14a1e53da689" />
+</p>
+
+<p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/2eaee5a4-0761-4d46-9d40-c32fe9ce0953" />
+</p>
+
+
 
 
 

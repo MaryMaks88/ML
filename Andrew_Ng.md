@@ -231,8 +231,47 @@ Decision Boundary
 
 Cost Function for Logistic Regression
 
+<p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/7daf2d19-8bea-4c48-8885-17232c8caffa" />
+</p>
 
+If y = 1
 
+<p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/86d3ac66-0197-4597-9c55-4d204a6fb81b" />
+</p>
+
+If y = 0
+
+<p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/5c41503d-5438-4a6a-95a1-87ec9a3a7ece" />
+</p>
+
+<p><img width="300" height="150" alt="image" src="https://github.com/user-attachments/assets/d267eff1-f569-41bb-bb8e-9070400135a9" />
+</p>
+
+<p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/0e8cf016-9d85-454a-9c4b-e5693ff4ca10" />
+</p>
+
+Simplified Cost Function
+
+<p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/39759e6d-a1fd-4b96-9dc0-70dce5ab9a36" />
+</p>
+
+Gradient Descent Implementation
+
+<p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/95130c35-f578-4ffe-8fc4-1d23944f0dea" />
+</p>
+
+Code example for derivatives for gradient descent
+
+<p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/db8eaf94-dd45-44b8-bc78-dd45a2a46d20" />
+</p>
+
+The Problem of Overfitting
+
+<p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/5e1463f9-ab3a-4c61-a6fe-78c1a338233a" />
+</p>
+
+<p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/f510f7ef-0a75-42eb-8e13-c42537ee6b5e" />
+</p>
 
 
 

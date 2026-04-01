@@ -293,12 +293,13 @@ Regularized Linear Regression
 <p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/2eaee5a4-0761-4d46-9d40-c32fe9ce0953" />
 </p>
 
+Regularized Logistic Regression
 
+<p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/4fb64913-b751-4d07-8013-314072971c92" />
+</p>
 
-
-
-
-
+<p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/a2291e8f-5f72-44f8-a2d5-2cfa6fae4262" />
+</p>
 
 
 

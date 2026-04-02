@@ -31,7 +31,13 @@ Forward Propagation
 <p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/762cb0ed-b147-4694-8f6f-a1f6d0b30b9e" />
 </p>
 
+Tensorflow
 
+<p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/96671dea-5965-4c76-9e5c-efb8ed8d70f8" />
+</p>
+
+<p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/42e74cd7-e2a0-4fa5-abcd-cd16dd091d3c" />
+</p>
 
 
 

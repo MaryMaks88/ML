@@ -41,12 +41,51 @@ Tensorflow
 <p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/42e74cd7-e2a0-4fa5-abcd-cd16dd091d3c" />
 </p>
 
+Forward propagation in Python
 
+<p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/168c92d4-0374-47d6-8fd1-084e69a71fdb" />
+</p>
+
+Forward Propagation in NumPy
+
+<p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/b0ab8f9c-d647-4df0-b16d-033bc04ad0e9" />
+</p>
+
+Vectorization
+
+<p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/18c90872-9ccf-4dae-b717-77fb5320dc6b" />
+</p>
+
+Matrix Multiplication
+
+Dot products (between vectors)
+
+<p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/33838b46-b6fb-4a68-a715-e92276ba4473" />
+</p>
+
+Vector matrix multiplication
+
+<p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/84a4b346-67db-42f7-b0d7-8b368a7549f9" />
+</p>
+
+Matrix Matrix multiplication
+
+<p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/0227c6b1-a2f4-49b9-8000-3f4b8cdad923" />
+</p>
+
+Matrix multiplication rules
+
+<p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/1db3fb72-4a51-4189-a441-48dcdf35dd53" />
+</p>
+
+<p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/6bc46113-5809-4141-89ea-0493f8bc4cfe" />
+</p>
+
+<p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/77e93fa7-c0f6-4d2d-894d-ddf31161cfe9" />
+</p>
 
 
 
 
 
 [Нагору ↑](#top)
-
-

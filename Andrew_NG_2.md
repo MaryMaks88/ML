@@ -156,6 +156,15 @@ Advanced Optimization
 <p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/de92785b-79f3-44da-bb2b-16bfba792e15" />
 </p>
 
+Convolutional layer
+
+<p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/99fc9217-946c-44ed-a86a-89a2a7e1dbf3" />
+</p>
+
+<p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/55eb6c2b-8afd-4150-99f9-95fd4ae927d6" />
+</p>
+
+
 
 
 

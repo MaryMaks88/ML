@@ -84,6 +84,56 @@ Matrix multiplication rules
 <p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/77e93fa7-c0f6-4d2d-894d-ddf31161cfe9" />
 </p>
 
+Tensorflow Implementation
+
+<p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/2514f1d7-6eec-4e9c-8814-4f9023ccac96" />
+</p>
+
+<p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/03fcbf28-aef3-4a73-a0b4-49664245c558" />
+</p>
+
+Activation functions
+
+<p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/97696390-defa-4edf-a83a-0253995bacc3" />
+</p>
+
+How to choose
+
+For the output layer
+
+<p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/28b3dee5-63e4-44e1-a583-fbdf7c257dc1" />
+</p>
+
+For the hidden layer
+
+<p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/9fa190c5-e71c-462a-b65b-5dc5ae2c3592" />
+</p>
+
+Recomendation
+
+<p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/dcbcc9c8-8aab-4f5f-8dc0-21cd3e08bdb0" />
+</p>
+
+Multiclass
+
+<p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/c5fae337-984e-4845-a350-61dc95edb9f7" />
+</p>
+
+Softmax
+
+<p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/557821e9-3f0f-4fd6-92b4-02359d34a3e3" />
+</p>
+
+<p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/7c039250-e2a7-40a3-863e-f7d076b13a57" />
+</p>
+
+!!!
+
+<p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/5bd26538-7d2c-498e-b5d8-4966328abcbd" />
+</p>
+
+<p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/043150c0-213a-44d9-a15a-2b444c2260ec" />
+</p>
 
 
 

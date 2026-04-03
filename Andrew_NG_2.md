@@ -135,6 +135,30 @@ Softmax
 <p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/043150c0-213a-44d9-a15a-2b444c2260ec" />
 </p>
 
+Multi-label Classification
+
+Different labels in scope of one x
+
+<p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/45c17cc9-2f55-48dc-9a08-d494ded44191" />
+</p>
+
+<p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/cfa5a2d8-0a8f-4494-9217-b719ded89e33" />
+</p>
+
+Advanced Optimization
+
+<p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/da01b1c5-b052-4547-9e1e-12112ea7c433" />
+</p>
+
+<p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/3cf79aab-4219-4289-8dfd-19192f6d969d" />
+</p>
+
+<p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/de92785b-79f3-44da-bb2b-16bfba792e15" />
+</p>
+
+
+
+
 
 
 

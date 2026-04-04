@@ -164,9 +164,13 @@ Convolutional layer
 <p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/55eb6c2b-8afd-4150-99f9-95fd4ae927d6" />
 </p>
 
+Evaluating a model
 
+<p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/33e95142-c78a-49c9-a28b-6a4cc03b43ff" />
+</p>
 
-
+<p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/7c65d0cd-b005-4ea2-856f-eeed7ff31720" />
+</p>
 
 
 

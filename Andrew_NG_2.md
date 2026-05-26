@@ -172,6 +172,13 @@ Evaluating a model
 <p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/7c65d0cd-b005-4ea2-856f-eeed7ff31720" />
 </p>
 
+Bias / Variance
+
+<p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/2169e880-21df-4d10-a01e-c63e10f5d4b1" />
+</p>
+
+<p><img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/4b769022-80c1-4a57-a878-5f19e683e907" />
+</p>
 
 
 
